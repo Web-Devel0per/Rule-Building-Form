@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Click here</button>
+		<div class="row-form">
+			<div class="col-lg-12">
+				<div class="modal fade" id="mymodal" role="dialog" aria-hidden>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="form-item">
+								<h3>Add Revenue Group</h3>
+							</div>
+
+							<form>
+								<div class="form-item revenue-group-title">
+									<p>Revenue Group Title</p>
+									<input type="text" name="revenue-group-title" value="Fashion - 15%">
+									<p>If
+										<span>
+											<select>
+												<option selected>ALL</option>
+												<option>Option 1</option>
+												<option>Option 2</option>
+												<option>Option 3</option>
+											</select>
+										</span>
+										of the below conditions are met
+									</p>
+								</div>
+
+								<div class="rule-parent">
+									<div class="rule" id="rule">
+										<div class="rule-item" id="rule-item">
+											<span>
+												<select>
+													<option selected>aff_sub</option>
+												</select>
+												<select>
+													<option selected>is</option>
+												</select>
+											</span>
+											<span class="addRuleContainer">
+												<input type="text" name="parameter">
+												<p class="addRule">add rule</p>
+											</span>
+											<span>
+												<i class="fas fa-minus remove" id="remove"></i>
+												<i class="fas fa-plus add"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-item percentage">
+									<p>then revenue is
+										<span><input type="number" name="percentage" value="15"></span>
+									</p>
+								</div>
+
+								<div class="form-buttons">
+									<button>Confirm</button>
+									<button>Cancel</button>
+								</div>
+							</form>
+						</div><!-- modal-content -->
+					</div><!-- modal-dialog -->
+				</div><!-- modal -->
+			</div>
+		</div><!-- row-form -->
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+/* Global styles START */
+body {
+	background-color: #2E4053;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 23%;
+	text-align: center;
+}
+
+input,
+button,
+button:focus,
+select:focus {
+	outline: 0;
+	box-shadow: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Global styles END */
+
+/* Modal Styles START */
+.modal-dialog {
+	max-width: 800px;
+}
+
+.modal-content {
+	border-radius: 0;
+	text-align: left;
+	padding: 24px 0;
+}
+
+.modal-content .form-item {
+	padding: 0 24px;
+}
+
+.modal-content p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.modal-content h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 24px;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"] {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #999;
+	outline: 0;
+	font-size: 14px;
+	padding: 8px 10px;
+}
+
+.modal-content .revenue-group-title {
+	padding-bottom: 20px;
+}
+
+.modal-content .revenue-group-title input,
+.modal-content .revenue-group-title select {
+	margin: 6px 0;
+}
+
+.modal-content select {
+	padding: 8px;
+	margin: 6px 4px;
+	border-radius: 4px;
+}
+
+.modal-content p select {
+	margin: 6px 4px !important;
+}
+
+.modal-content .rule {
+	background: #ccc;
+	padding: 24px;
+	border-bottom: 1px solid #333;
+}
+
+.modal-content .rule select {
+	margin: 0;
+}
+
+.modal-content .rule input {
+	/*width: auto;*/
+}
+
+.modal-content .rule .fas {
+	border: 2px solid #666;
+	border-radius: 50%;
+	color: #666;
+	margin-left: 10px;
+	padding: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.modal-content .rule .rule-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.modal-content .rule .rule-item span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content .rule span select {
+	width: 50%;
+	margin-right: 10px;
+}
+
+.modal-content .rule span:nth-child(1) {
+	width: calc(40% - 40px);
+}
+
+.modal-content .rule span:nth-child(2) {
+	position: relative;
+	width: calc(60% - 40px);
+}
+
+.modal-content .rule span:nth-child(3) {
+	width: 80px;
+}
+
+.modal-content .rule span:nth-child(2) p {
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	color: #55ADEA;
+	font-weight: 500;
+	transition: .25s;
+	padding: 8px 10px;
+	margin-right: -14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.modal-content .rule span:nth-child(2) p:hover {
+	background: #55ADEA;
+	color: #fff;
+}
+
+.modal-content .rule span:nth-child(2) p.remove_rule {
+	color: red;
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	font-weight: 500;
+	transition: .25s;
+	padding: 8px 10px;
+	margin-right: -14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.modal-content .rule span:nth-child(2) p.remove_rule:hover {
+	color: #fff;
+	background: red;
+}
+.modal-content .percentage{
+	padding-top: 24px;
+}
+.modal-content .percentage input[type="number"] {
+	margin: 6px 4px !important;
+	width: auto;
+}
+
+.modal-content .percentage span {
+	position: relative;
+}
+
+.modal-content .percentage span:after {
+	content: '%';
+	position: absolute;
+	right: 15px;
+	top: -1px;
+	color: #666;
+}
+
+.modal-content .form-buttons {
+	padding: 24px;
+}
+
+.modal-content .form-buttons button {
+	border-radius: 4px;
+	padding: 8px 24px;
+	margin-right: 6px;
+	border: none;
+	transition: .25s;
+	color: white;
+}
+
+.modal-content .form-buttons button:first-child {
+	background: #E98024;
+	border: 1px solid #E98024;
+}
+
+.modal-content .form-buttons button:first-child:hover {
+	background: white;
+	color: #E98024;
+}
+
+.modal-content .form-buttons button:last-child {
+	background: #999;
+	border: 1px solid #999;
+}
+
+.modal-content .form-buttons button:last-child:hover {
+	background: white;
+	color: #999;
+}
+.modal-content .removeRule{
+	color: red !important;
+}
+
+.modal-content .removeRule:hover{
+	background: red !important;
+	color: white !important;
+}
+/* Modal Styles END */
